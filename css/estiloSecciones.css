@@ -1,0 +1,59 @@
+/*Texto*/
+.row {
+    margin-top: 20px;
+}
+.texto{
+  color: #888;
+  margin: 0.2%;
+}
+.imgSection{
+	text-align: center;
+}
+.autoImg{
+	border-radius: 10px;
+	margin: 0.5%;
+}
+a.list-group-item.list-group-item-action.list-group-item-danger{
+	background-color: #c20109;
+	color: white;
+}
+a.list-group-item.list-group-item-action.list-group-item-light{
+	background-color: white;
+	color: black;
+}
+
+a.list-group-item.list-group-item-action.list-group-item-danger h4{
+	color: white;
+}
+a.list-group-item.list-group-item-action.list-group-item-danger:hover{
+	border: 9px outset rgba(242,0,0,0.97);
+	border-radius: 9px 9px 9px 9px;
+}
+a.list-group-item.list-group-item-action.list-group-item-light:hover{
+	border: 9px outset rgba(237,239,237,0.97);
+	border-radius: 9px 9px 9px 9px;
+}
+.list-group-item .list-group-item-action{
+	color: #c20109;
+	border: 9px outset rgba(242,0,0,0.97);
+	border-radius: 9px 9px 9px 9px;
+}
+.list-group-item .list-group-item-action .active{
+	background-color: #c20109;
+	color: white;
+}
+.nav-link{
+	color: #c20109;
+}
+.btn{
+	background-color: #c20109;
+}
+.btn:hover{
+	background-color: white;
+	color:#c20109;
+}
+
+table thead th, tbody th{
+	background-color: #c20109;
+	color: white;
+}

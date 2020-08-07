@@ -1,0 +1,122 @@
+#mintshare_mini, #mintshare_mini ul {padding:0; margin:0; list-style:none; width:100px; font-family:arial, sans-serif; background:url("../imgs/bkg-btn-grey.gif") repeat-x scroll 0 0 #EDEDED;
+}
+
+#mintshare_mini {
+	width:130px;
+	height:30px;
+	border:1px solid #888;
+	padding: 0 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#mintshare_mini a.sharetext {
+	display:block;
+	width:100px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	color:#000;
+	text-decoration:none;
+	font-size:13px;
+	font-weight:bold;
+	background: url("../imgs/plus.png") no-repeat scroll 0 center transparent;
+	padding-left:15px;
+	cursor:pointer;
+}
+
+#mintshare_mini a.sharetext img {
+    border: 0 none;
+    display: block;
+    margin-left: 10px;
+}
+
+
+#mintshare_mini .flyout {
+    background: none repeat scroll 0 0 #AAAAAA;
+    height: 113px;
+    left: 40px;
+    position: relative;
+    top: -4px;
+    width: 0;
+transition: width 1s ease-in-out;
+-o-transition: width 1s ease-in-out;
+-moz-transition: width 1s ease-in-out;
+-webkit-transition: width 1s ease-in-out;
+}
+
+#mintshare_mini .flyout ul {
+background:url("../imgs/bkg-btn-grey.gif") repeat-x scroll 0 0 #EDEDED;
+list-style:none;
+position:absolute; 
+left:-1000px; 
+top:-27px; 
+width:200px; 
+height:30px; 
+border:1px solid #888; 
+border-left:0; 
+padding-right:10px;
+z-index: 500;
+overflow: hidden;
+padding-left: 15px;
+transition: 1s ease-in-out;
+-o-transition: 1s ease-in-out;
+-moz-transition: 1s ease-in-out;
+-webkit-transition: all 1s ease-in-out;
+-o-border-radius: 0 15px 15px 0;
+-icab-border-radius: 0 15px 15px 0;
+-khtml-border-radius: 0 15px 15px 0;
+-moz-border-radius: 0 15px 15px 0;
+-webkit-border-radius: 0 15px 15px 0;
+border-radius: 0 15px 15px 0;
+}
+
+#mintshare_mini:hover .flyout ul{left:50px;}
+
+#mintshare_mini .flyout ul li {float: left;}
+
+#mintshare_mini .flyout ul li a{}
+
+#mintshare_mini .flyout ul a img{}
+
+#mintshare_mini .flyout ul li.drop-li {position:relative; width:35px; height:30px; float:left; z-index:100; margin-top: -2px;}
+#mintshare_mini .flyout ul li.drop-li a.drop-a {display:block; width:100px; float:left; text-decoration:none; line-height:16px;}
+
+
+#mintshare_mini .flyout ul li.drop-li a.drop-a img {display:block; border:0; position:absolute; left:5px; top:5px; z-index:-1; opacity:1; filter: alpha(opacity=100);
+transition: 0.4s ease-in-out;
+-o-transition: 0.4s ease-in-out;
+-moz-transition: 0.4s ease-in-out;
+-webkit-transition: all 0.4s ease-in-out;
+}
+
+#mintshare_mini .flyout ul li.drop-li a b {background:lightBlue; padding:2px 0; font-family:arial, sans-serif; display:block; width:100px; margin-top:58px; text-align:center; cursor:pointer; color:#000; font-size:14px; opacity:0; filter: alpha(opacity=0);
+transition: 0.4s ease-in-out;
+-o-transition: 0.4s ease-in-out;
+-moz-transition: 0.4s ease-in-out;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+-o-border-radius:10px;
+}
+
+#mintshare_mini .flyout ul li.drop-li:hover > a img {opacity:0.5; filter: alpha(opacity=50);}
+#mintshare_mini .flyout ul li.drop-li:hover > a b {opacity:1; filter: alpha(opacity=100);}
+
+
+/* For IE6 */
+
+#mintshare_mini .flyout ul li.drop-li a:hover img {filter: alpha(opacity=50);}
+#mintshare_mini .flyout ul li.drop-li a:hover b {filter: alpha(opacity=100);}
+
+/* Get MintShare */
+
+#mintshare_mini .get_mintshare {
+    font-size: 10px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
