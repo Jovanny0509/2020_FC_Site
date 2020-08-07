@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^firmacar\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.firmacar\.com$
+RewriteRule ^sistema\/?$ "http\:\/\/www\.firmacarsist\.com\.mx\/sistema" [R=301,L]
+
